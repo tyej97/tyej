@@ -1,0 +1,70 @@
+int getData(int[]);
+char searchArray(int[], int, char);
+const int ARRAY_LIMIT = 50;
+int arrayTotal = 0;
+int integerArray[ ARRAY_LIMIT ];
+char continueing = 'N';
+arrayTotal = getData(integerArray);
+continueing = searchArray(integerArray, arrayTotal, continueing);
+while(continueing == 'Y');
+int getData(int localNameOfArray[])
+cout << "Enter file name: ";
+inputFile.open(fileName.c_str());
+while (inputFile >> someLocalIntegerName && localCounter < ARRAY_LIMIT)
+localNameOfArray[localCounter] = someLocalIntegerName;
+if(localCounter == ARRAY_LIMIT)
+cout << "Array limit reached. Ignoring futher data." << endl;
+cout << "There is a problem with the file " << endl;
+cout << endl << "What integer would you like to find? ";
+while (index < localArrayLimit && !found)
+if (localArray[index] == locateValue)
+if (position == -1)
+cout << "Integer not found." << endl;
+cout << "Would you like to search for another integer? (Y/N) : ";
+int getNames(string, string[][2], int[]);
+void sortArray(string[][2], int, int[]);
+char searchArray(string[][2], int,  int[]);
+void postSearchPrint(string[][2], int, int[]);
+const int ARRAY_LIMIT = 50;
+string nameArray[ARRAY_LIMIT][2];
+cout << "Enter file name: ";
+arrayTotal = getNames(fileName, nameArray, ageArray);
+sortArray(nameArray, arrayTotal, ageArray);
+again = searchArray(nameArray, arrayTotal, ageArray);
+while (again == 'Y');
+postSearchPrint(nameArray, arrayTotal, ageArray);
+ifstream inputFile;
+inputFile.open(someFileOfIntegers.c_str());
+if (inputFile)
+if (localAge >= 18 && localAge <= 65)
+localNameOfArray[localCounter][0] = localFirstName;
+localNameOfArray[localCounter][1] = localLastName;
+localAgeArray[localCounter] = localAge;
+if(localCounter == ARRAY_LIMIT)
+cout << "Array limit reached. Ignoring futher data." << endl;
+cout << "There is a problem with the file " << endl;
+smallest = localArray[localCounter][1];
+ticker = 0 + localCounter;
+while(ticker < localArrayLimit)
+if(localArray[ticker][1] < smallest)
+smallest = localArray[ticker][1];
+tempFirst = localArray[position][0];
+tempLast = localArray[position][1];
+tempAge = localAgeArray[position];
+localArray[position][0] = localArray[localCounter][0];
+localArray[position][1] = localArray[localCounter][1];
+localAgeArray[position] = localAgeArray[localCounter];
+localArray[localCounter][0] = tempFirst;
+localArray[localCounter][1] = tempLast;
+localAgeArray[localCounter] = tempAge;
+cout << "\nWhat last name would you like to search for? ";
+cin >> nameToFind;
+while(!found && first <= last)
+middle = (first + last) / 2;
+if(localSearchArray[middle][1] == nameToFind)
+else if(localSearchArray[middle][1] > nameToFind)
+if(positionFoundAt == -1)
+cout << "\nThe last name " << nameToFind << " not found.";
+cout << "\nWould you like to search again (Y/N): ";
+cout << "\n\n\nPOST SEARCH ARRAY DISPLAY" << endl;
+for (int k = 0; k < localArrayLimit; k++)

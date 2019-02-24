@@ -1,0 +1,12 @@
+char searchArray(string localSearchArray[][2], int localLimit, int localAgeArray[])
+cout << endl << localSearchArray[positionFoundAt][0] << " " << localSearchArray[positionFoundAt][1] << ", Age: " << localAgeArray[positionFoundAt] << " was found at position " << positionFoundAt << " in the sorted array";
+cout << printNameArray[k][0] << " " << printNameArray[k][1] << ", age: " << printAgeArray[k] << endl;
+if(change == true)  //if a swap needs to happen, this is activated and the smallest found is swapped with the current starting position
+for(int localCounter = 0; localCounter < localArrayLimit - 1; localCounter++)
+void postSearchPrint(string printNameArray[][2], int localArrayLimit, int printAgeArray[])
+for(int localCounter = 0; localCounter < localArrayLimit - 1; localCounter++)
+void sortArray(string localArray[] [2], int localArrayLimit, int localAgeArray[])
+while (inputFile >> localFirstName >> localLastName >> localAge && localCounter < ARRAY_LIMIT)
+int getNames(string someFileOfIntegers, string localNameOfArray[][2], int localAgeArray[])
+char searchArray(int localArray[], int localArrayLimit, char contin)
+cout << "The integer " << locateValue << " was found at position " << position << " in the array" << endl;

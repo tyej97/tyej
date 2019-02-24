@@ -1,0 +1,62 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <fstream>
+using namespace std;
+int main()
+return 0;
+string fileName;
+int localCounter = 0;
+ifstream inputFile;
+cin >> fileName;
+int someLocalIntegerName;
+if (inputFile)
+localCounter++;
+inputFile.close();
+return localCounter;
+int index = 0;
+int position = -1;
+int locateValue = 0;
+bool found = false;
+cin >> locateValue;
+found = true;
+position = index;
+index++;
+//PreConditions:
+//PostConditions:
+int arrayTotal = 0;
+int ageArray[ARRAY_LIMIT];
+char again;
+return 0;
+int localCounter = 0;
+string localFirstName;
+string localLastName;
+int localAge;
+localCounter++;
+inputFile.close();
+return localCounter;
+string smallest;
+int position = -1;
+bool change = false;
+int ticker;
+string tempFirst;
+string tempLast;
+int tempAge;
+position = -1;
+change = false;
+position = ticker;
+change = true;
+ticker++;
+int positionFoundAt = -1;
+int first = 0;
+int middle;
+int last = localLimit;
+string nameToFind;
+char again;
+bool found = false;
+found = true;
+positionFoundAt = middle;
+last = middle - 1;
+first = middle + 1;
+cin >> again;
+return again;
