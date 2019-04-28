@@ -1,5 +1,5 @@
 Taylor,200
+James,110
+Tye,109
+JAmes,104
 Jim,100
-Beth,74
-Hugh,70
-John,38
