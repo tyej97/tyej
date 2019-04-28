@@ -1,0 +1,5 @@
+Taylor,200
+Jim,100
+Beth,74
+Hugh,70
+John,38
